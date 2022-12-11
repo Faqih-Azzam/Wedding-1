@@ -1,4 +1,6 @@
 .bg-layer {
+  min-height: 100vh;
+  height: 100%;
   background-image: url("/assets/images/Background.png");
   background-size: cover;
   background-position: center;
@@ -42,5 +44,12 @@
   }
   .text-undangan {
     padding: 150px 0 0 0;
+  }
+  .text-undangan h3 {
+    font-size: 20px;
+  }
+
+  .text-undangan p {
+    font-size: 15px;
   }
 }
