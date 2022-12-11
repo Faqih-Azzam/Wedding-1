@@ -36,6 +36,19 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.ke-atas {
+  background-color: white;
+  padding: 10px 15px 6px 15px;
+  z-index: 1;
+  border-radius: 100%;
+  border: 1px solid black;
+  color: black;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 800px) {
   .bg-layer {
     background-image: url("/assets/images/Background-hp.png");
