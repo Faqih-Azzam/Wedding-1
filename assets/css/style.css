@@ -1,0 +1,41 @@
+.bg-layer {
+  background-image: url("/assets/images/Background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.text-undangan {
+  padding: 90px 0 0 0;
+}
+
+.text-undangan h3 {
+  font-size: 30px;
+}
+
+.text-undangan p {
+  font-size: 20px;
+}
+
+.full-height {
+  min-height: 100vh;
+  padding: 100px;
+}
+
+#more {
+  display: none;
+}
+
+.glass {
+  background: rgba(50, 50, 50, 0.22);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.1px);
+  -webkit-backdrop-filter: blur(1.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media only screen and (max-width: 800px) {
+  .text-undangan {
+    padding: 150px 0 0 0;
+  }
+}
