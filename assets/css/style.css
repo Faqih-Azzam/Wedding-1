@@ -35,6 +35,11 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .bg-layer {
+    background-image: url("/assets/images/Background-hp.png");
+    background-size: cover;
+    background-position: center;
+  }
   .text-undangan {
     padding: 150px 0 0 0;
   }
