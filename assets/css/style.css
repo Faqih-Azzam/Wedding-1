@@ -45,6 +45,20 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.location .card {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location .card p {
+  padding: 0 100px;
+}
+
 .ke-atas {
   background-color: white;
   padding: 10px 15px 6px 15px;
@@ -73,5 +87,9 @@
 
   .text-undangan p {
     font-size: 15px;
+  }
+
+  .location .card p {
+    padding: 0 20px;
   }
 }
