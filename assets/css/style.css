@@ -11,6 +11,16 @@
   font-size: 18px;
 }
 
+.kotak-nama .card {
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .full-height {
   min-height: 100vh;
   height: 100%;
