@@ -41,7 +41,6 @@
 }
 
 .glass-dark {
-  /* From https://css.glass */
   background: rgba(34, 34, 34, 0.5);
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -51,7 +50,6 @@
 }
 
 .glass-white {
-  /* From https://css.glass */
   background: rgba(218, 218, 218, 0.5);
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -60,7 +58,7 @@
   border: 1px solid rgba(218, 218, 218, 0.9);
 }
 
-.img-center {
+.bride-img-center {
   position: absolute;
   width: 400px;
   top: 10%;
@@ -68,19 +66,65 @@
   transform: translate(-50%, -50%);
 }
 
-.img-bottom {
+.bride-img-bottom {
   position: absolute;
   width: 150px;
   top: 65%;
   right: 30%;
 }
 
-.img-top {
+.bride-img-top {
   position: absolute;
   width: 150px;
   top: 65%;
   left: 30%;
   transform: scaleY(-1);
+}
+
+.date-img-bottom {
+  position: absolute;
+  width: 150px;
+  top: 75%;
+  right: 21%;
+}
+
+.date-img-top {
+  position: absolute;
+  width: 150px;
+  top: 18%;
+  left: 21%;
+}
+
+.margin-galery {
+  margin: 0 200px;
+}
+
+.galery-img-bottom {
+  position: absolute;
+  width: 150px;
+  top: 81%;
+  right: 11%;
+}
+
+.galery-img-top {
+  position: absolute;
+  width: 150px;
+  top: 14%;
+  left: 11%;
+}
+
+.location-img-bottom {
+  position: absolute;
+  width: 150px;
+  top: 77%;
+  right: 5%;
+}
+
+.location-img-top {
+  position: absolute;
+  width: 150px;
+  top: 18%;
+  left: 5%;
 }
 
 .location .card {
@@ -123,28 +167,76 @@
     padding: 0 20px;
   }
 
-  .img-center {
+  .bride-img-center {
     position: absolute;
-    width: 200px;
+    width: 400px;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
-  .img-bottom {
+  .bride-img-bottom {
     position: absolute;
-    width: 100px;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 150px;
+    top: 65%;
+    right: 30%;
   }
 
-  .img-top {
+  .bride-img-top {
     position: absolute;
-    width: 100px;
-    top: 10%;
+    width: 150px;
+    top: 65%;
+    left: 30%;
+    transform: scaleY(-1);
+  }
 
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .margin-date {
+    margin: 0 30px;
+  }
+
+  .date-img-bottom {
+    position: absolute;
+    width: 150px;
+    top: 75%;
+    right: 21%;
+  }
+
+  .date-img-top {
+    position: absolute;
+    width: 150px;
+    top: 18%;
+    left: 21%;
+  }
+
+  .margin-galery {
+    margin: 0 30px;
+  }
+
+  .galery-img-bottom {
+    position: absolute;
+    width: 150px;
+    top: 83%;
+    right: 0;
+  }
+
+  .galery-img-top {
+    position: absolute;
+    width: 150px;
+    top: 12%;
+    left: 0;
+  }
+
+  .location-img-bottom {
+    position: absolute;
+    width: 150px;
+    top: 77%;
+    right: 5%;
+  }
+
+  .location-img-top {
+    position: absolute;
+    width: 150px;
+    top: 18%;
+    left: 5%;
   }
 }
