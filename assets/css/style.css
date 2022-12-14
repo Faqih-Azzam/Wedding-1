@@ -118,4 +118,29 @@
   .location .card p {
     padding: 0 20px;
   }
+
+  .img-center {
+    position: absolute;
+    width: 200;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .img-bottom {
+    position: absolute;
+    width: 100px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .img-top {
+    position: absolute;
+    width: 100px;
+    top: 10%;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
