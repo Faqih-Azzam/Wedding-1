@@ -22,6 +22,7 @@
 }
 
 .full-height {
+  position: relative;
   min-height: 100vh;
   height: 100%;
   margin: 0;
@@ -43,6 +44,31 @@
   backdrop-filter: blur(1.1px);
   -webkit-backdrop-filter: blur(1.1px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.img-center {
+  position: absolute;
+  width: 400px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-bottom {
+  position: absolute;
+  width: 200px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-top {
+  position: absolute;
+  width: 200px;
+  top: 10%;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .location .card {

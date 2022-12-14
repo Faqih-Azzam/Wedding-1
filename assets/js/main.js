@@ -14,7 +14,7 @@ function myFunction() {
   }
 }
 
-let countDownDate = new Date("Dec 13, 2022 00:00:00").getTime();
+let countDownDate = new Date("Jan 14, 2023 00:00:00").getTime();
 
 let x = setInterval(function () {
   let now = new Date().getTime();
@@ -29,9 +29,10 @@ let x = setInterval(function () {
     days = days - years * 365;
   }
   hours = Math.floor(((distance % timeDays) / timeHours) * 1);
+  minutes = Math.floor(((distance % timeDays) / timeHours) * 1);
 
   document.getElementById("demo").innerHTML =
-    years + "Tahun " + days + "Hari " + hours + "Jam ";
+    years + " Tahun " + days + " Hari " + hours + " Jam " + minutes + " Menit ";
 
   // If the count down is over, write some text
   // if (distance < 0) {
